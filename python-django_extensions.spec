@@ -1,12 +1,12 @@
 %define		module		django-extensions
 Summary:	Django Custom Management Command Extensions
 Name:		python-django_extensions
-Version:	0.6
+Version:	0.7.1
 Release:	1
 License:	BSD
 Group:		Development/Languages/Python
 Source0:	http://pypi.python.org/packages/source/d/%{module}/%{module}-%{version}.tar.gz
-# Source0-md5:	b90b1a412bb7a1f0a18ef1c05663f1d7
+# Source0-md5:	c82b38a1f82fb4724565ad1bb61652d0
 URL:		http://django-command-extensions.googlecode.com/
 BuildRequires:	python-devel
 BuildRequires:	rpm-pythonprov
