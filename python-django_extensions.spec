@@ -2,7 +2,7 @@
 Summary:	Django Custom Management Command Extensions
 Name:		python-django_extensions
 Version:	0.7.1
-Release:	1
+Release:	2
 License:	BSD
 Group:		Development/Languages/Python
 Source0:	http://pypi.python.org/packages/source/d/%{module}/%{module}-%{version}.tar.gz
