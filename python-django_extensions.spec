@@ -11,7 +11,7 @@ URL:		http://django-command-extensions.googlecode.com/
 BuildRequires:	python-devel
 BuildRequires:	rpm-pythonprov
 # if py_postclean is used
-BuildRequires:	rpmbuild(macros) >= 1.219
+BuildRequires:	rpmbuild(macros) >= 1.710
 #%pyrequires_eq	python-libs
 %pyrequires_eq	python-modules
 Requires:	python-django >= 1.0
