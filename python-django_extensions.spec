@@ -1,4 +1,5 @@
 # TODO: Fix tests
+#
 # Conditional build:
 %bcond_without	doc	# don't build doc
 %bcond_with	tests	# do not perform "make test"
@@ -90,7 +91,6 @@ rm -rf $RPM_BUILD_ROOT
 
 %if %{with python2}
 %py_install
-
 %py_postclean
 %endif
 
@@ -106,9 +106,7 @@ rm -rf $RPM_BUILD_ROOT
 %defattr(644,root,root,755)
 %doc README.rst
 %{py_sitescriptdir}/%{module}
-%if "%{py_ver}" > "2.4"
 %{py_sitescriptdir}/%{module}-%{version}-py*.egg-info
-%endif
 %endif
 
 %if %{with python3}
