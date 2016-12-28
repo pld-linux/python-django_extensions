@@ -11,7 +11,7 @@ Summary:	Django Custom Management Command Extensions
 Summary(pl.UTF-8):	Rozszerzenie komend zarządzających Django
 Name:		python-%{module}
 Version:	1.6.7
-Release:	1
+Release:	2
 License:	MIT
 Group:		Libraries/Python
 Source0:	https://pypi.python.org/packages/7f/da/1245fe47d1a2ca8d2d03b3cdbc886e64c94a8c2d3b6f99e3464d507a7c29/django-extensions-%{version}.tar.gz
